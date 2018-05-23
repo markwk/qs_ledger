@@ -6,6 +6,7 @@ Basic Description Coming Soon
 
 ### Current Integrations: 
 
+* Fitbit
 * Last.fm
 * RescueTime
 
