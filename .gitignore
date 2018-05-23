@@ -1,4 +1,5 @@
 # Ignore Data 
+*/data
 
 # Ignore Credential Files
 credentials.json
