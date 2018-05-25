@@ -6,8 +6,8 @@
 
 The project has two primary goals: 
 
-# download, aggregate and store locally all of your personal data from various tracking services (see below for list of integration services)
-# provide the starting point for creating a personal data dashboard for data analysis, data visualization, and predictive analysis and forecasting using Machine Learning and Artificial Intelligence. 
+1. download, aggregate and store locally all of your personal data from various tracking services (see below for list of integration services)
+2. provide the starting point for creating a personal data dashboard for data analysis, data visualization, and predictive analysis and forecasting using Machine Learning and Artificial Intelligence. 
 
 At present, the main objective is to provide working data downloaders and simple data analysis for each of the integrated services. 
 
@@ -33,4 +33,6 @@ At present, the main objective is to provide working data downloaders and simple
 
 **Want to help?** Fork the project and provide your own data  
 
-## [Questions? Bugs? Feature Requests? Support](https://github.com/markwk/qs_ledger/issues) 
+## Questions? Bugs? Feature Requests? Need Support?
+
+Post a ticket in the [QS Ledger Issue Queue](https://github.com/markwk/qs_ledger/issues) 
