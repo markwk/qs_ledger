@@ -22,7 +22,7 @@ At present, the main objective is to provide working data downloaders and simple
 
 ### Current Integrations: 
 
-* Apple Health (coming soon!)
+* [Apple Health](https://github.com/markwk/qs_ledger/tree/master/apple_health): fitness and health tracking and data analysis from iPhone or Apple Watch.
 * [Fitbit](https://github.com/markwk/qs_ledger/tree/master/fitbit): fitness and health tracking and analysis of Steps, Sleep, and Heart Rate from a Fitbit wearable. 
 * [Last.fm](https://github.com/markwk/qs_ledger/tree/master/last_fm): : music tracking and analysis of music listening history from Last.fm.
 * [RescueTime](https://github.com/markwk/qs_ledger/tree/master/rescuetime): track computer usage and analysis of computer activities and time with RescueTime. 
