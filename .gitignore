@@ -3,6 +3,7 @@
 
 # Ignore Credential Files
 credentials.json
+token.json
 
 
 # Default Python Ignore
