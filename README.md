@@ -32,6 +32,10 @@ At present, the main objective is to provide working data downloaders and simple
 * [Todoist](https://github.com/markwk/qs_ledger/tree/master/todoist): task tracking and analysis of todo's and tasks completed history from Todoist app. 
 * [Toggl](https://github.com/markwk/qs_ledger/tree/master/toggl): time tracking and analysis of manual timelog entries from Toggl. 
 
+### EXAMPLES: 
+
+* [Combine and Merge Personal Data into Unified Data Frame](https://github.com/markwk/qs_ledger/blob/master/Example_Combined_Personal_Data.ipynb): This example notebook provides a step-by-step walkthrough about how to combine multiple data points into a unified daily CSV of personal metrics. 
+
 #### Creators and Contributors: 
 
 * [Mark Koester](https://github.com/markwk/)
