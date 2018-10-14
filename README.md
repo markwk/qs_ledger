@@ -38,6 +38,7 @@ At present, the main objective is to provide working data downloaders and simple
 ### EXAMPLES: 
 
 * [Combine and Merge Personal Data into Unified Data Frame](https://github.com/markwk/qs_ledger/blob/master/Example_Combined_Personal_Data.ipynb): This example notebook provides a step-by-step walkthrough about how to combine multiple data points into a unified daily CSV of personal metrics. 
+* [Simple QS Correlation Explorer with Plot.ly and Dash](https://github.com/markwk/qs_ledger/blob/master/example_correlation_explorer_with_plotly.py): This example code uses combined data frame to generate a simple way to view data, visualize correlation and test for linear regression relationship. Requires Dash and Plot.ly. 
 
 #### Creators and Contributors: 
 
