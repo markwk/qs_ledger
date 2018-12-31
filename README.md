@@ -7,9 +7,11 @@
 The project has two primary goals: 
 
 1. **download all of your personal data** from various tracking services (see below for list of integration services) and store locally. 
-2. provide the starting point for creating a **personal data dashboard** for data analysis, data visualization, and predictive analytics and forecasting using Machine Learning and Artificial Intelligence. 
+2. provide the starting point for **personal data analysis, data visualization and a personal data dashboard** 
 
 At present, the main objective is to provide working data downloaders and simple data analysis for each of the integrated services. 
+
+Some initial work has been started on using these data streams for predictive analytics and forecasting using Machine Learning and Artificial Intelligence, and the intention to increasingly focus on modeling in future iterations. .
 
 ### Code / Dependencies: 
 
@@ -36,6 +38,7 @@ At present, the main objective is to provide working data downloaders and simple
 * [Strava](https://github.com/markwk/qs_ledger/tree/master/strava): activities downloader (runs, cycling, swimming, etc.) and analysis from Strava. 
 * [Todoist](https://github.com/markwk/qs_ledger/tree/master/todoist): task tracking and analysis of todo's and tasks completed history from Todoist app. 
 * [Toggl](https://github.com/markwk/qs_ledger/tree/master/toggl): time tracking and analysis of manual timelog entries from Toggl. 
+* [WordCounter](https://github.com/markwk/qs_ledger/tree/master/wordcounter): extract wordcounter app history and visualize recent periods of word counts.
 
 ### EXAMPLES: 
 
