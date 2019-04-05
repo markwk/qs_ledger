@@ -4,7 +4,7 @@ Part of [QS Ledger](https://github.com/markwk/qs_ledger/)
 
 This set of scripts and notebooks allows you to parse the highlights from a kindle ebook device (like a Paperwhite), to do some simple data analysis and export individual book highlights into separate text files. 
 
-![Data Analysis Example of Highlights](https://github.com/markwk/qs_ledger/raw/master/kindle/data/kindle_highlights_data_analysis_example.png)
+![Data Analysis Example of Highlights](https://github.com/markwk/qs_ledger/raw/master/kindle/kindle_highlights_data_analysis_example.png)
 
 ### How to Use: Parser and Data Analysis
 
