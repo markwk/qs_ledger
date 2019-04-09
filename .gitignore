@@ -4,6 +4,7 @@
 # Ignore Credential Files
 credentials.json
 token.json
+token.pickle
 
 
 # Default Python Ignore
