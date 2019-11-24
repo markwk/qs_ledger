@@ -1,0 +1,10 @@
+name: Lint by black
+on: [push, pull_request]
+jobs:
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lgeiger/black-action@master
+        with:
+          path: '**/*.py --check'
