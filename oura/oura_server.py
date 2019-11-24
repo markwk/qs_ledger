@@ -14,7 +14,6 @@ with open("credentials.json", "r") as file:
     oura_cr = credentials['oura']
     CLIENT_SECRET = oura_cr['CLIENT_SECRET']
     CLIENT_ID = oura_cr['CLIENT_ID']
-    # ACCESS_TOKEN = oura_cr['ACCESS_TOKEN']
 
 
 from flask import Flask, abort, request
@@ -26,10 +25,8 @@ def homepage():
 
 def make_authorization_url():
 	# Generate a random string for the state parameter
-	# Save it for use later to prevent xsrf attacks
 	from uuid import uuid4
 	state = str(uuid4())
-	save_created_state(state)
 	params = {"client_id": CLIENT_ID,
 			  "response_type": "code",
 			  "state": state,
@@ -60,9 +57,6 @@ def oura_redir():
 	if error:
 		return "Error: " + error
 	state = request.args.get('state', '')
-	if not is_valid_state(state):
-		# Uh-oh, this request wasn't started by us!
-		abort(403)
 	code = request.args.get('code')
 
 	return "got an access token! %s" % get_token(code)
