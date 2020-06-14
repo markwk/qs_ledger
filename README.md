@@ -63,6 +63,13 @@ With [Papermill](https://github.com/nteract/papermill):
 - `papermill rescuetime_downloader.ipynb data/output.ipynb -p start_date '2019-08-14' -p end_date '2019-10-14'`
 - **NOTE**: You first need to [parameterize your notebook](https://github.com/nteract/papermill#parameterizing-a-notebook) in order pass parameters into commands. 
 
+With [docker-compose](https://docs.docker.com/compose/):
+
+- Installation of docker is required.
+- This runs the Docker image [continuumio/anaconda3](https://hub.docker.com/r/continuumio/anaconda3). The current directory will be mounted to `/opt/notebooks`.
+- Run `docker-compose up` in current directory.
+- Point the browser to the shown URL.
+
 #### Creators and Contributors: 
 
 * [Mark Koester](https://github.com/markwk/)
