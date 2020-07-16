@@ -29,7 +29,7 @@ def make_authorization_url():
 	# Save it for use later to prevent xsrf attacks
 	from uuid import uuid4
 	state = str(uuid4())
-	save_created_state(state)
+	# save_created_state(state)
 	params = {"client_id": CLIENT_ID,
 			  "response_type": "code",
 			  "state": state,
@@ -60,9 +60,9 @@ def oura_redir():
 	if error:
 		return "Error: " + error
 	state = request.args.get('state', '')
-	if not is_valid_state(state):
+	##if not is_valid_state(state):
 		# Uh-oh, this request wasn't started by us!
-		abort(403)
+	##	abort(403)
 	code = request.args.get('code')
 
 	return "got an access token! %s" % get_token(code)
