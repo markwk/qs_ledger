@@ -46,6 +46,7 @@ Some initial work has been started on using these data streams for predictive an
 
 * [Combine and Merge Personal Data into Unified Data Frame](https://github.com/markwk/qs_ledger/blob/master/Example_Combined_Personal_Data.ipynb): This example notebook provides a step-by-step walkthrough about how to combine multiple data points into a unified daily CSV of personal metrics. 
 * [Simple QS Correlation Explorer with Plot.ly and Dash](https://github.com/markwk/qs_ledger/blob/master/example_correlation_explorer_with_plotly.py): This example code uses combined data frame to generate a simple way to view data, visualize correlation and test for linear regression relationship. Requires Dash and Plot.ly. 
+* [Import Apple Health Data into Elastic Search and Create a Dashboard](https://github.com/markwk/qs_ledger/blob/master/apple_health/apple_health_data2elastic.ipynb): This example code shows how to import data from a panda's dataframe into Elastic Search and then how create necessary indexes, objects and finally a working dynamic dashboard. See [Apple Health readme](https://github.com/markwk/qs_ledger/tree/master/apple_health) for specific instructions. 
 
 ### How to use this project: Installation and Setup Locally
 
