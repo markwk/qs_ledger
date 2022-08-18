@@ -7,7 +7,7 @@
 The project has two primary goals: 
 
 1. **download all of your personal data** from various tracking services (see below for list of integration services) and store locally. 
-2. provide the starting point for **personal data analysis, data visualization and a personal data dashboard** 
+2. provide the starting point for **personal data analysis, [data visualization](https://www.scaler.com/topics/data-visualization-in-python/) and a personal data dashboard** 
 
 At present, the main objective is to provide working data downloaders and simple data analysis for each of the integrated services. 
 
